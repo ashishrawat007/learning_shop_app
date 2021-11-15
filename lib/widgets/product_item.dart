@@ -24,7 +24,8 @@ class ProductItem extends StatelessWidget {
             ),
           ),
           footer: GridTileBar(
-              backgroundColor: Colors.black87,
+
+              backgroundColor: Colors.black45,
               leading:  Consumer<Product>(
                 builder: (ctx, product, child) => IconButton(
                   // widget which don't build
